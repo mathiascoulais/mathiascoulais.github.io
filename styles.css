@@ -87,6 +87,7 @@ section p {
 
 .experience li img {
     max-width: 3rem;
+    max-height: 3rem;
 }
 
 .experience_title {
@@ -108,8 +109,11 @@ section p {
 }
 
 .portfolio-item {
-    background: #fff;
-    border: 1px solid #ddd;
+    min-height: 10rem;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    box-shadow: 0 0 1rem #ddd;
     padding: 1rem;
     flex: 1 1 calc(33.333% - 2rem);
     box-sizing: border-box;
@@ -129,7 +133,8 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 0.5rem 0;
+    padding: rem 0;
+    position: fixed;
     width: 100%;
     bottom: 0;
 }
